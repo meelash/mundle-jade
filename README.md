@@ -1,5 +1,7 @@
 ## Mundlejs plugin for jade
 ### Usage
-    mundle-jade = require('mundle-jade');
+    mundleJade = require('mundle-jade');
     mundle = require('mundle');
-    mundle.use(mundle-jade);
+    mundle.use(mundleJade);
+
+  Make sure you also require the client-side jade renderer: https://github.com/visionmedia/jade#browser-support
