@@ -1,0 +1,29 @@
+{
+  "name": "mundle-jade",
+  "version": "0.0.0",
+  "description": "A plugin for mundlejs to allow jade compilation",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meelash/mundle-jade.git"
+  },
+  "keywords": [
+    "mundlejs",
+    "jade",
+    "bundle",
+    "module",
+    "plugin"
+  ],
+  "author": "Saleem Abdul Hamid <meelash@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "mundle": "~0.5.0",
+    "nodeunit": "~0.7.4"
+  },
+  "dependencies": {
+    "jade": "~0.27.5"
+  }
+}
